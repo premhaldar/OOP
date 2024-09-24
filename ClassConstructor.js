@@ -8,7 +8,8 @@
 
 class myClass{
     constructor(a,b) {
-        console.log(a+b)
+        let c=a+b;
+        console.log(c)
     }
 }
 const MyClass=new myClass(10,20)
