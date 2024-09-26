@@ -28,10 +28,10 @@
 //---------------------------------------
 
 class abc{
-    static add=(a,b)=>{
+    add=(a,b)=>{
         let c=a+b;
         console.log(c);
     }
 }
-// let myClass=new abc();
-abc.add(10,2)
+let myClass=new abc();
+myClass.add(10,2)

@@ -8,7 +8,7 @@
 
 class myClass{
     constructor(a,b) {
-        let c=a+b;
+        let c=a+ b;
         console.log(c)
     }
 }
