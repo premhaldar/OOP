@@ -13,25 +13,25 @@
 
 // ---------------------------------------
 
-// class ThisClass{
-//     a=2;
-//     b=3;
-//     Multi=()=>{
-//         let res=this.a*this.b;
-//         console.log(res);
-//     }
-// }
-// let className=new ThisClass();
-// className.Multi()
+class ThisClass{
+    a=2;
+    b=3;
+    Multi=()=>{
+        let res=this.a*this.b;
+        console.log(res);
+    }
+}
+let className=new ThisClass();
+className.Multi()
 
 
 //---------------------------------------
 
-class abc{
-    add=(a,b)=>{
-        let c=a+b;
-        console.log(c);
-    }
-}
-let myClass=new abc();
-myClass.add(10,2)
+// class abc{
+//     add=(a,b)=>{
+//         let c=a+b;
+//         console.log(c);
+//     }
+// }
+// let myClass=new abc();
+// myClass.add(10,2)
