@@ -13,7 +13,7 @@
 
 // ---------------------------------------
 
-class ThisClass{
+/*class ThisClass{
     a=2;
     b=3;
     Multi=()=>{
@@ -22,16 +22,30 @@ class ThisClass{
     }
 }
 let className=new ThisClass();
-className.Multi()
+className.Multi()*/
 
 
 //---------------------------------------
 
-// class abc{
-//     add=(a,b)=>{
-//         let c=a+b;
-//         console.log(c);
-//     }
-// }
-// let myClass=new abc();
-// myClass.add(10,2)
+class abc{
+    add=(a,b)=>{
+        let c=a+b;
+        return c;
+    }
+}
+let myClass=new abc();
+console.log(myClass.add(10,2))
+
+// ==============================================
+/*class person{
+    first_name="Prem"
+    last_name="Haldar"
+    age=25
+    city="New York"
+    getFullName=()=>{
+        return "My name is "+this.first_name+" "+this.last_name+". I am "+this.age+" years old. I live in "+this.city+"."
+    }
+}
+let Myself=new person();
+
+console.log(Myself.getFullName())*/

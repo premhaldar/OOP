@@ -1,13 +1,14 @@
-// let person={
-//     first_name: "Prem",
-//     last_name: "Haldar",
-//     age: 30,
-//     getName:() => {
-//       return "my name is " + this.first_name + " " + this.last_name;
-//     }
-// }
-// console.log(person.getName());
-
+let mySelf={
+  first_name:"Prem",
+  last_name:"Haldar",
+  age:30,
+  city:"Dhaka",
+  isBangladesh: true,
+  getName:()=>{
+    return `My name is ${mySelf.first_name} ${mySelf.last_name} .My age is ${mySelf.age}. I'm from ${mySelf.city}. I'm a ${mySelf.isBangladesh}.`;
+  }
+};
+console.log(mySelf.getName());
 // const calculator = {
 //     number1: 10,
 //     number2: 20,
@@ -44,7 +45,3 @@
 //   console.log(calculator.subtract());  // Output: -10
 //   console.log(calculator.multiply());  // Output: 200
 //   console.log(calculator.divide());    // Output: 0.5
-
-let person{
-   
-}
