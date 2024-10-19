@@ -1,13 +1,13 @@
 class Father{
-    constructor(){
-        console.log("Hellow This is Father Constructor")
+    constructor(msg){
+        console.log(msg)
     }
 }
 class Son extends Father{
-    constructor(){
+    constructor(msg){
         super() //permission
-        console.log("This is son constructor")
+        console.log(msg)
     }
 }
-let son= new Son()
-let father= new Father()
+let son= new Son("This is son father constructor")
+let father= new Father("Hellow This is Father Constructor")
